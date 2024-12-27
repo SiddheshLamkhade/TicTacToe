@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:rgb(182, 222, 231) ;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-photo/modern-futuristic-sci-fi-background_35913-2150.jpg?t=st=1735281058~exp=1735284658~hmac=b4623fe6353c602868e8ce55894d9887cd7efbab4ba101b9835d90c64b5792f9&w=996);
+    background-size: cover;
+    color: white;
+    font-weight: bolder;
+}
+main
+{
+    margin-top: 23px;
+    padding-top: 23px;
+}
+.container
+{
+    height:70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.game
+{
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+
+.box
+{
+    height:18vmin;
+    width: 18vmin;/*minimum height will be 18vh*/
+    border-radius:13px;
+    border: none;
+    box-shadow: 0 0 13px rgb(56, 192, 230);
+    font-size: 7vmin;/*As height of box is 18vmin as mentioned above so font-size can be set to 7 vmin*/
+    color:rgba(254, 35, 35, 0.671);
+}
+
+#resetbtn
+{
+    padding: 1rem;
+    font-size: 1.23rem;
+    background-color: rgba(245, 220, 220, 0.944);
+    font-weight: bold;
+    border-radius: 1rem;
+    border: none;
+}
+
+#newbtn
+{
+    padding: 1rem;
+    font-size: 1.23rem;
+    background-color: rgba(245, 220, 220, 0.944);
+    font-weight: bold;
+    border-radius: 1rem;
+    border: none;
+}
+
+.winnermsgcontainer #msg
+{
+    color:antiquewhite;
+    font-size:10vmin ;
+}
+.winnermsgcontainer
+{
+    height: 20vmin;
+
+}
+.hide
+{
+    display: none;
+}
